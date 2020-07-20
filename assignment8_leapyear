@@ -1,0 +1,21 @@
+year = int(input("dört rakamlı bir yıl giriniz : "))
+leap = ((year % 4 == 0) and (year % 100 != 0)) or (year % 400 == 0)
+print()
+if leap == True :
+    print(" is a leap year.")
+else :
+    print(" is not a leap year")   
+
+dört rakamlı bir yıl giriniz : 2400
+
+ is a leap year. 
+-------------------------------
+dört rakamlı bir yıl giriniz : 2019
+
+ is not a leap year
+--------------------------------
+dört rakamlı bir yıl giriniz : 2020
+
+ is a leap year.
+-----------------
+Hocam bu ödevi bu sekilde yüklemem dogrumu? ayni zamanda istenen seyi yapabilmis miyim?     
