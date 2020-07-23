@@ -1,0 +1,19 @@
+Task: 
+Count the number of each letter in a sentence.
+
+
+The department you work for undertook a project construction that makes word / text analysis. You are asked to calculate the number of letters or any chars in the sentences entered under this project.
+Write a Python program that;
+takes a sentence from the user,
+counts the number of each letter of the sentence,
+collects the letters/chars as a key and the counted numbers as a value in a dictionary.
+
+my_sentence = "I learn Python programming language"
+x = {}
+for i in my_sentence :
+    if i not in x:
+        x[i] = 0
+    x[i] +=1
+print(x)
+OUTPUT
+{'I': 1, ' ': 4, 'l': 2, 'e': 2, 'a': 4, 'r': 3, 'n': 4, 'P': 1, 'y': 1, 't': 1, 'h': 1, 'o': 2, 'p': 1, 'g': 4, 'm': 2, 'i': 1, 'u': 1}
