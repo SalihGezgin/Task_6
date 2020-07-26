@@ -17,3 +17,10 @@ for i in my_sentence :
 print(x)
 OUTPUT
 {'I': 1, ' ': 4, 'l': 2, 'e': 2, 'a': 4, 'r': 3, 'n': 4, 'P': 1, 'y': 1, 't': 1, 'h': 1, 'o': 2, 'p': 1, 'g': 4, 'm': 2, 'i': 1, 'u': 1}
+
+sentence = input("Enter a sentence : ")
+dict1 = {i : sentence.count(i) for i in sentence}
+print(dict1)
+
+Enter a sentence : I learn Python programming language
+{'I': 1, ' ': 4, 'l': 2, 'e': 2, 'a': 4, 'r': 3, 'n': 4, 'P': 1, 'y': 1, 't': 1, 'h': 1, 'o': 2, 'p': 1, 'g': 4, 'm': 2, 'i': 1, 'u': 1}
